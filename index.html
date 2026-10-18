@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIAT-chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col">
+    <div id="chat-container" class="flex-1 overflow-y-auto p-4">
+        <!-- Messages will be added here -->
+    </div>
+    <div class="p-4 bg-white border-t">
+        <div class="flex">
+            <input id="message-input" type="text" class="flex-1 p-2 border rounded-l" placeholder="Type your message...">
+            <button id="send-button" class="bg-blue-500 text-white px-4 rounded-r hover:bg-blue-600">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
